@@ -13,3 +13,7 @@ In this repo, you will found the code from the [OpenCV 101 tutorials](https://de
 ## Tutorials
 
 - [0-cv-hello](./0-cv-hello):  Episode 0 - [Introduction to OpenCV](https://www.youtube.com/watch?v=gvmP0WRVUxI): Learn to write your first ‘Hello World’ program on Jetson with OpenCV. You’ll learn a simple compilation pipeline with Midnight Commander, cmake, and OpenCV4Tegra’s mat library, as you build for the first time.
+
+![0-cv-hello output](./images/0-cv-hello.png)
+
+
