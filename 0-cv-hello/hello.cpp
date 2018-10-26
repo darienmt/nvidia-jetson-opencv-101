@@ -1,5 +1,6 @@
 #include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc.hpp> // This was not on the tutorial because putText changed location after this tutorial was recorded.
+// This was not on the tutorial because putText changed location after this tutorial was recorded.
+#include <opencv2/imgproc.hpp> 
 
 int main() {
 

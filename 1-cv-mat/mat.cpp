@@ -3,7 +3,6 @@
 
 int main() {
     
-
     cv::Mat image0;
     
     image0.create(400, 640, CV_8UC1);
@@ -19,7 +18,6 @@ int main() {
 		radius,
 		128,
 		3);
-
     
     // cv::Mat image1 = image0;
     cv::Mat image1;
@@ -46,22 +44,22 @@ int main() {
 
     for ( int y = 0; y < image1.rows; y++ ) 
     {
-	uchar *row = image1.ptr<uchar>(y);
-	for ( int x = 0; x < image1.cols; x++ ) 
-	{
-	    if ( row[x] == 128 ) 
-		row[x] = x * y * 255 / image1.total();
-	}
+        uchar *row = image1.ptr<uchar>(y);
+        for ( int x = 0; x < image1.cols; x++ ) 
+        {
+            if ( row[x] == 128 ) 
+            row[x] = x * y * 255 / image1.total();
+        }
     }
     
     for ( int y = 0; y < image2.rows; y++ ) 
     {
-	cv::Vec3b *row = image2.ptr<cv::Vec3b>(y);
-	for ( int x = 0; x < image2.cols; x++ ) 
-	{
-	    if ( row[x][1] == 185 ) 
-		row[x] = cv::Vec3b(0, x * y * 255 / image2.total(), 118);
-	}
+        cv::Vec3b *row = image2.ptr<cv::Vec3b>(y);
+        for ( int x = 0; x < image2.cols; x++ ) 
+        {
+            if ( row[x][1] == 185 ) 
+            row[x] = cv::Vec3b(0, x * y * 255 / image2.total(), 118);
+        }
     }
 
     cv::imshow("Image2", image2);
