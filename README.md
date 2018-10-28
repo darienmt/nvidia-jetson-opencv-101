@@ -20,5 +20,8 @@ In this repo, you will found the code from the [OpenCV 101 tutorials](https://de
 
 - [1-cv-mat](./1-cv-mat): Episode 1 - [CV Mat Container](https://www.youtube.com/watch?v=lQfWANnqmps) Learn to work with mat, OpenCV’s primary container. You’ll learn memory allocation for a basic image matrix, then test a CUDA image copy with sample grayscale and color images.
 
+- [2-cv-io](./2-cv-io): Episode 2: [Multimedia I/O](https://www.youtube.com/watch?v=PEaNXO5SKsE)
+Learn to manipulate images from various sources: JPG and PNG files, and USB webcams. Run standard filters such as Sobel, then learn to display and output back to file. Implement a rudimentary video playback mechanism for processing and saving sequential frames.
+
 
 

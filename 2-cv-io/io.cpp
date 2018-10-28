@@ -19,7 +19,7 @@ int main()
     //cv::imwrite("lena_sobel.png", dst);
     //cv::waitKey();
 
-    // Step 3: Video processing and saving a video
+    // Step 4: Video processing and saving a video
 
     cv::Mat dst;
 
