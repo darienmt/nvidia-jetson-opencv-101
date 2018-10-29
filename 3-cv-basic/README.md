@@ -5,11 +5,11 @@ Start with an app that displays an image as a Mat object, then resize, rotate it
 
 ## Step 1 : Resizing image
 
-![Resizing](imges/3-cv-basic-01.png)
+![Resizing](images/3-cv-basic-01.png)
 
 ## Step 2 : Rotating image
 
-![Rotating](image/3-cv-basic-02.jpg)
+![Rotating](images/3-cv-basic-02.jpg)
 
 ## Step 3 : Detecting edges with Canny
 
