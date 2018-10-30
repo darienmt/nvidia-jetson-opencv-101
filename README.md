@@ -6,7 +6,7 @@ In this repo, you will found the code from the [OpenCV 101 tutorials](https://de
 
 
 
-## Dev evironment
+## Dev environment
 
 - [NVIDIA Jetson TX1 Developer Kit SE](https://developer.nvidia.com/embedded/buy/jetson-tx1-devkit)
 - [JetPack 3.3](https://developer.nvidia.com/embedded/jetpack)
