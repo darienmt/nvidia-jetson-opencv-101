@@ -26,5 +26,7 @@ Learn to manipulate images from various sources: JPG and PNG files, and USB webc
 - [3-cv-basic](./3-cv-basic): Episode 3: [Basic Operations](https://www.youtube.com/watch?v=7bgjQh_Fasg)
 Start with an app that displays an image as a Mat object, then resize, rotate it or detect “canny” edges, then display the result. Then, to ignore the high-frequency edges of the image’s feather, blur the image and then run the edge detector again. With higher window sizes, the feather’s edges disappear, leaving behind only the more significant edges present in the input image.
 
+- [4-cv-flow](./4-cv-flow): Episode 4: [Feature Detection and Optical Flow](https://www.youtube.com/watch?v=WjtJmb9dROQ)
+Take an input MP4 video file (footage from a vehicle crossing the Golden Gate Bridge) and detect corners in a series of sequential frames, then draw small marker circles around the identified features. Watch as these demarcated features are tracked from frame to frame. Then, color the feature markers depending on how far they move frame to frame. This simplistic analysis allows points distant from the camera—which move less—to be demarcated as such.
 
 
