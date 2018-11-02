@@ -29,4 +29,7 @@ Start with an app that displays an image as a Mat object, then resize, rotate it
 - [4-cv-flow](./4-cv-flow): Episode 4: [Feature Detection and Optical Flow](https://www.youtube.com/watch?v=WjtJmb9dROQ)
 Take an input MP4 video file (footage from a vehicle crossing the Golden Gate Bridge) and detect corners in a series of sequential frames, then draw small marker circles around the identified features. Watch as these demarcated features are tracked from frame to frame. Then, color the feature markers depending on how far they move frame to frame. This simplistic analysis allows points distant from the camera—which move less—to be demarcated as such.
 
+- [5-cv-features](./5-cv-features): Episode 5: [Descriptor Matching and Object Detection](https://www.youtube.com/watch?v=hKq9KATD_EI)
+Use features and descriptors to track the car from the first frame as it moves from frame to frame. Store (ORB) descriptors in a Mat and match the features with those of the reference image as the video plays. Learn to filter out extraneous matches with the RANSAC algorithm. Then multiply points by a homography matrix to create a bounding box around the identified object. The result isn’t perfect, but try different filtering techniques and apply optical flow to improve on the sample implementation. Getting good at computer vision requires both parameter-tweaking and experimentation.
+
 
